@@ -1,0 +1,66 @@
+/* General styles */
+#root {
+  width: 100%;
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #27143D;
+}
+
+.App {
+  background-color: #69BFF0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+button {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Container1 {
+  /* Styles for Container1 */
+}
+
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 1.5rem;
+  }
+
+  .App {
+    /* Adjustments for smaller screens */
+  }
+
+  h1 {
+    /* Adjustments for smaller screens */
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 30vmin;
+    /* Adjustments for smaller screens */
+  }
+
+  .Container1 {
+    /* Adjustments for smaller screens */
+  }
+}
+
+/* Additional media queries for even smaller screens if needed */
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+
+  /* Adjustments for further smaller screens */
+}

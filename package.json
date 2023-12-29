@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "ts-node src/App"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nostr-tools": "^2.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwind": "^4.0.0",
+    "use-debounce": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "ts-node": "^10.9.2"
+  }
+}
